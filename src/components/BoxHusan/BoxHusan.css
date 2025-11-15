@@ -1,0 +1,60 @@
+.hero {
+    position: relative;
+    width: 100vwgi;
+    height: 100vh;
+  
+    background-image: url("image.png"); /* rasm manzilini shu yerga qo'yasan */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+  }
+  
+  .content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 25px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .playstore {
+    background: #ff4d00; 
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .appstore {
+    background: transparent;
+    border: 2px solid white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  
+  
