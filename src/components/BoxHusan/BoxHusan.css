@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    width: 100vwgi;
+    width: 100vwc;
     height: 100vh;
   
     background-image: url("image.png"); /* rasm manzilini shu yerga qo'yasan */
@@ -22,7 +22,6 @@
     font-weight: 700;
     margin-bottom: 10px;
   }
-  
   .content p {
     font-size: 18px;
     opacity: 0.9;

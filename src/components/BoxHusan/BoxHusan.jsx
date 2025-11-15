@@ -5,6 +5,7 @@ function BoxHusan() {
   return (
 <section class="hero">
   <div class="content">
+    <div><img src={image} alt="" /></div>
     <h1>Download the app now.</h1>
     <p>Available on your favorite store. Start your premium experience now</p>
 
@@ -14,8 +15,6 @@ function BoxHusan() {
     </div>
   </div>
 </section>
-
-    
   )
 }
 
